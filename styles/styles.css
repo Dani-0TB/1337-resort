@@ -49,11 +49,22 @@ body{
   width: 100%;
   display: flex;
   align-items: baseline;
+  margin-bottom: 1em;
+}
+
+.logo{
+  flex-grow:1;
+  max-width: 100%;
 }
 
 .head-link {
   text-decoration: none;
+  margin-left: 1em;
 }
+.head-link:hover{
+  color: #fff09e;
+}
+
 
 .head-content {
   display: flex;
