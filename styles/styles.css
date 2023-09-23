@@ -7,6 +7,16 @@ html {
 }
 
 /* General styles */
+
+body{
+  margin: 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .bg-blue {
   background-color: #1f2937;
 }
@@ -20,3 +30,39 @@ html {
 }
 
 /* Header element styles */
+
+.container-flex{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1000px;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+
+.head-link {
+  text-decoration: none;
+}
+
+.head-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-img {
+  background-color: gray;
+  padding: 3rem 5rem;
+  text-align: center;
+}
