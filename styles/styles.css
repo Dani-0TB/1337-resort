@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* General styles */
+.bg-blue {
+  background-color: #1f2937;
+}
+
+.txt-white{
+  color: #f9faf8;
+}
+
+.txt-subtle{
+  color: #e5e7eb;
+}
+
+/* Header element styles */
