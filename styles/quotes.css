@@ -5,14 +5,14 @@
   align-items: center;
   justify-content: center;
   max-width: 70%;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .quote{
   max-width: 100%;
   margin: 0;
   font-size: 34px;
-  font-weight: light;
+  font-weight: 300;
   font-style: italic;
   text-align: justify;
 }
@@ -20,6 +20,6 @@
 .quote-author{
   max-width: 100%;
   margin: 0 0 0 auto;
-  font-size: larger;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 700;
 }
