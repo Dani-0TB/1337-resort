@@ -1,14 +1,17 @@
 /* Cards*/
-.h2{
-  width: 100%;
-  text-align: center;
+.cards-content{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 70%;
+  padding: 50px 0;
 }
 
 .card {
   max-width: 150px;
   display: flex;
   flex-flow: column wrap;
-  margin-left: 50px;
   margin-bottom: 2rem;
 }
 

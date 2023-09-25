@@ -7,7 +7,6 @@ html {
 }
 
 /* General styles */
-
 body{
   margin: 0;
   display: flex;
@@ -16,7 +15,7 @@ body{
   align-items: center;
 }
 
-
+/* Colors */
 .bg-blue {
   background-color: #1f2937;
 }
@@ -37,6 +36,13 @@ body{
   color: #e5e7eb;
 }
 
+/* text styles */
+.heading-2{
+  width: 100%;
+  text-align: center;
+}
+
+/* Containers*/
 .container-flex{
   display: flex;
   width: 100%;
@@ -55,3 +61,4 @@ body{
   flex-flow: row wrap;
   border: 2px solid black;
 }
+
