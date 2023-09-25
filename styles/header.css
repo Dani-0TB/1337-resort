@@ -5,7 +5,6 @@
   width: 100%;
   display: flex;
   align-items: center;
-  border: 2px solid red;
 }
 
 .logo{
@@ -31,14 +30,6 @@
 
 .head-text{
   flex: 1;
-}
-
-.btn {
-  border: none;
-  border-radius: 10px;
-  padding: 0.5rem 2.3rem;
-  font-weight: bold;
-  font-size: large;
 }
 
 .head-img {
